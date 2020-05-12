@@ -1,0 +1,17 @@
+Homework 3
+
+After you have tested some classifiers/regressors on the wines dataset (homework 1), 
+you need to improve your models.
+ Your tasks for this homework are: 
+•Use gridsearch with cross validation to improve one of your previously submitted models (Homework 1)
+ for each problem: regression, binary classification and multiclass classification.
+ Select your parameters and scan their possible values properly (hint: use numpy). 
+Report the test set score, best parameters,
+ best cross-validation score and best estimator. 
+What is the improvement with respect to the past results?
+ •For your binary classification problem, use gridsearch and cross-validation with SVC. 
+What is the best kernel? Print the heat map of mean cross-validation score (hint: use the mglearn library), 
+the ROC curve and report the AUC value.
+ •For your binary classification model, 
+repeat the gridsearch with cross validation step using AUC as the evaluation metric. 
+Do the result improves? Elaborate.

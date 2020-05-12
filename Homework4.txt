@@ -1,0 +1,13 @@
+# Homework 4
+
+Model optimization using GridSearchCV
+1.Using sklearn.datasets.load_boston, make a pipeline that combines•StandardScaler
+•KernelPCA with "poly" kernel
+•ElasticNet regression
+
+2.Find the best combination of the following 4 parameters:•KernelPCA.gamma 
+•KernelPCA.degree
+•ElasticNet.alpha
+•ElasticNet.l1_ratio Make nice plots to support your optimization procedure.
+
+3.Learn from Scikit-Learn documentation how to use different models as parameter values. Make a pipeline with StandardScaler, KernelPCA and a "regressor", then compare classifiers like "Ridge", "RandomForestRegressor" and "sklearn.smv.SVR". Which classifier is the best?
